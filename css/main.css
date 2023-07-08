@@ -1,0 +1,181 @@
+:root{
+    --oran:#bd5d38;
+    --iconC:#495057;
+}
+.t{
+    color: var(--oran);
+}
+@media (min-width: 280px) {
+    #Home,#EXPERIENCE,#EDUCATION,#SKILLS,#INTERESTS,#AWARDS{
+    width: 100%;
+    height: auto;
+    }
+    .aw{
+        padding-top: 3px;
+    
+    }
+    .logo i{
+        font-size:45px;
+    }
+    .edu{
+        padding-top:30px;
+        padding-bottom: 0px;
+       
+    }
+    .exp{
+        padding-top: 3px;
+        font-size: 30px;
+    }
+    #EXPERIENCE{
+        height:     1500px;
+        padding-bottom: 0px;
+       
+    }
+    #EDUCATION{
+        /* height:     100vh; */
+    }
+    .icon{
+        margin-bottom: 50px;
+    }
+    .name{
+        margin-top: 30px;
+    }
+    .email{
+        cursor: pointer;
+    }
+    .email:hover{
+        color: #3a1506;
+    }
+    .para{
+        font-size: 18px;
+    }
+    .barItem a:hover{
+        color: #f2edeb;
+    }
+    .iconn{
+        background-color:var(--iconC) ;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        margin-left: 30px;
+        
+    }
+    .iconn:hover{
+        background-color:var(--oran) ;
+        
+    }
+    .iconn i{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .side{
+        display: none;
+    }
+    .top{
+        width: 100%;
+        height: 60px;
+        background-color: var(--oran);
+        display: block;
+    }
+    .letter{
+        top: 25%;
+        left: 3%;
+    }
+}
+@media (min-width: 750px) {
+
+    #EXPERIENCE{
+        height:     auto;
+        padding-bottom: 0px;
+       
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .date{
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+    .p{
+        width: 90% !important;
+    }
+    .top{
+        display:none;
+    }
+    .side{
+        display: block;
+        width: 272px;
+        height: 100%;
+        background-color:var(--oran) ;
+        position: fixed;
+        z-index: 5;
+    }
+    .sside{
+        
+        left: 50%;
+        transform: translate(-50%);
+        top: 30%;
+    }
+    .im{
+    cursor: pointer;
+        outline: 9px solid rgba(255, 255, 255, 0.271);
+    }
+    .barItem{
+        flex-direction: column;
+    }
+    .barItem a{
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 20px;
+        color: #e1b6a5;
+    }
+    #Home,#EXPERIENCE,#EDUCATION,#SKILLS,#INTERESTS,#AWARDS{
+        height: 100vh;
+    margin-left: 300px;
+    width: 60%;
+
+    }
+    /* #EDUCATION,#SKILLS,#INTERESTS,#AWARDS{
+    margin-left: 242px;
+
+        height: 100vh;
+    }
+    #EXPERIENCE{
+    } */
+    .home{
+        top: 35%;
+    }
+    .name{
+        margin: 0;
+        font-weight: 800;
+        font-size: 70px;
+    }
+     /* .experincer{
+        width: 80%;
+    } */.f{ 
+        float: right;
+    }
+    .edu{
+        padding-top: 300px;
+    }
+    .exp{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .expp{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .aw{
+        padding-top: 300px;
+
+    }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
